@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Horario GM2</title>
+    <style>
+      table {
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+      }
+      caption {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      th {
+        background-color: #333;
+        color: white;
+        padding: 8px;
+      }
+      td {
+        padding: 8px;
+        border: 1px solid #999;
+      }
+
+      /* Colores por asignatura */
+      .SOR { background-color: #f9c74f; }              
+      .Servred { background-color: #90be6d; }          
+      .Apweb { background-color: #577590; color: white; } 
+      .Python { background-color: #f9844a; }            
+      .Seguridad { background-color: #f94144; color: white; } 
+      .Digitalizacion { background-color: #43aa8b; color: white; } 
+      .Itiemple { background-color: #f3722c; color: white; } 
+      .Sostenibilidad { background-color: #4d908e; color: white; } 
+      .Tutoria { background-color: #277da1; color: white; } 
+      .Ingles { background-color: #9d4edd; color: white; } 
+      
+      tr.recreo td {
+        background-color: #ddd !important;
+        font-weight: bold;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <caption>HORARIO GM2 24-25</caption>
+      <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+      <tr>
+        <td>8:30</td>
+        <td class="SOR">SOR</td>
+        <td class="SOR">SOR</td>
+        <td class="SOR">SOR</td>
+        <td class="Servred">Serv red</td>
+        <td class="Servred">Serv red</td>
+      </tr>
+      <tr>
+        <td>9:25</td>
+        <td class="SOR">SOR</td>
+        <td class="SOR">SOR</td>
+        <td class="Servred">Serv red</td>
+        <td class="Servred">Serv red</td>
+        <td class="Itiemple">Iti emple</td>
+      </tr>
+      <tr>
+        <td>10:20</td>
+        <td class="Apweb">Ap web 
+          <a href="https://developer.mozilla.org/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="web">
+          </a>
+        </td>
+        <td class="Ingles">Inglés</td>
+        <td class="Servred">Serv red</td>
+        <td class="Python">Python</td>
+        <td class="Seguridad">Seguridad</td>
+      </tr>
+      <tr class="recreo">
+        <td colspan="6">Recreo 11:15</td>
+      </tr>
+      <tr>
+        <td>11:40</td>
+        <td class="Python">Python</td>
+        <td class="Sostenibilidad">Sostenibilidad</td>
+        <td class="Servred">Serv red</td>
+        <td class="Apweb">Ap web 
+          <a href="https://developer.mozilla.org/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="web">
+          </a>
+        </td>
+        <td class="Seguridad">Seguridad</td>
+      </tr>
+      <tr>
+        <td>12:35</td>
+        <td class="Python">Python</td>
+        <td class="Servred">Serv red</td>
+        <td class="Digitalizacion">Digitalización</td>
+        <td class="SOR">SOR</td>
+        <td class="Apweb">Ap web 
+          <a href="https://developer.mozilla.org/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="web">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>13:30</td>
+        <td class="Seguridad">Seguridad</td>
+        <td class="Servred">Serv red</td>
+        <td class="Itiemple">Iti emple</td>
+        <td class="Ingles">Inglés</td>
+        <td class="Apweb">Ap web 
+          <a href="https://aulavirtual32.educa.madrid.org/ies.sierradeguadarrama.soto/course/view.php?id=298" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="web">
+          </a>
+        </td>
+      </tr>
+      <tr class="recreo">
+        <td colspan="6">Recreo 14:25</td>
+      </tr>
+      <tr>
+        <td>14:35</td>
+        <td class="Tutoria">Tutoría individual</td>
+        <td></td><td></td><td></td><td></td>
+      </tr>
+    </table>
+
+    <div>
+      <h3>Asignaturas</h3>
+      <ul>
+        <li><b>SOR:</b> Sistemas operativos en red</li>
+        <li><b>Serv red:</b> Servicios en red</li>
+        <li><b>Ap web:</b> Aplicaciones web</li>
+        <li><b>Python:</b> Programación en Python</li>
+        <li><b>Seguridad:</b> Seguridad informática</li>
+        <li><b>Digitalización:</b> Digitalización</li>
+        <li><b>Iti emple:</b> Itinerario de empleo</li>
+        <li><b>Sostenibilidad:</b> Sostenibilidad</li>
+        <li><b>Tutoría individual:</b> Tutoría</li>
+        <li><b>Inglés:</b> Inglés técnico</li>
+      </ul>
+    </div>
+  </body>
+</html>
