@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Superhéroes</title>
+</head>
+<body>
+  <form action="mailto:fgonzalezcorreas@educa.madrid.com" method="POST">
+
+    <fieldset>
+      <legend>Personaje</legend>
+      <label>Superhéroe favorito:
+        <input type="text" name="superheroe" placeholder="elige superheroe">
+      </label><br><br>
+
+      <label>Color:
+        <input type="color" name="color">
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos de contacto</legend>
+
+      <label>Nombre:
+        <input type="text" name="nombre" placeholder="Nombre Apellido">
+      </label><br><br>
+
+      <label>Teléfono:
+        <input type="tel" name="telefono" placeholder="9999999"> Formato: 9999999
+      </label><br><br>
+
+      <label>Fecha:
+        <input type="date" name="fecha">
+      </label><br><br>
+
+      <label>Contraseña:
+        <input type="password" name="contrasena">
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Selecciona forma de contacto preferida:</legend>
+      <input type="radio" name="contacto" value="Email"> Email
+      <input type="radio" name="contacto" value="Telefono"> Teléfono
+      <input type="radio" name="contacto" value="Carta"> Carta
+    </fieldset>
+
+    <fieldset>
+      <legend>Elige tus asignaturas favoritas</legend>
+      <input type="checkbox" name="asignaturas" value="Aplicaciones Web"> Aplicaciones web<br>
+      <input type="checkbox" name="asignaturas" value="Seguridad Informatica"> Seguridad informática<br>
+      <input type="checkbox" name="asignaturas" value="Bases de Datos"> Bases de datos
+    </fieldset>
+
+    <!-- NUEVOS CAMPOS (5 tipos no usados previamente) -->
+    <fieldset>
+      <legend>Campos adicionales</legend>
+
+      <label>Sube una imagen:
+        <input type="file" name="imagen">
+      </label><br><br>
+
+      <label>Introduce tu edad:
+        <input type="number" name="edad" min="1" max="120">
+      </label><br><br>
+
+      <label>Tu página web:
+        <input type="url" name="web" placeholder="https://">
+      </label><br><br>
+
+      <label>Hora preferida de contacto:
+        <input type="time" name="hora">
+      </label><br><br>
+
+      <label>Busca tu ciudad:
+        <input type="search" name="ciudad" placeholder="Introduce tu ciudad">
+      </label>
+
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Resetear">
+
+  </form>
+</body>
+</html>
