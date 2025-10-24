@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-    <meta charset="UTF-8">  
-  <title>TIPOS DE CAMPO</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario simple</title>
 </head>
-<h2>Tipos de capos Formulario</h2>
 <body>
-<label>Nombre:</label>
 
-<input type="text" name="nombre">
-<BR>
-<BR>
-<label>Contraseña:</label>
-<input type="number" name="edad">
-<br>
-<BR>
-<label>Email:</label>
-<input type="number" name="edad"><br><br>
-<label>Fecha </label>
-<input type="date" name="fecha"><br><br>
-<label >Fecha y Hora</label>
-<input type="datetime-local" name="fecha y hora">
-<br>
-<input type = "submit" value = "Enviar">
- 
-</form>
-</html>
+  <form>
+    <fieldset>
+      <legend>Personaje</legend>
+
+      <label>Superhéroe favorito:</label> 
+      <select>
+        <option>Elige superhéroe</option>
+        <option>Iron Man</option>
+        <option>The Hulk</option>
+      </select>
+</br>
+      <label>Color:</label>
+      <input type="color">
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos de contacto</legend>
+
+      <label>Nombre:</label>
+      <input type="text">
+</br></br>
+      <label>Teléfono:</label>
+      <input type="tel" > <small>Formato: 9 dígitos</small>
+    
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+  </form>
+
 </body>
+</html>
