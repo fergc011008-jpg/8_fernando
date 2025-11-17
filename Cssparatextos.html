@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS: Primera práctica</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        h1 {
+            color: #00bcd4;
+        }
+
+        h2 {
+            color: #d63384;
+        }
+
+        h3 {
+            color: #800080;
+        }
+
+        code {
+            color: #009688;
+        }
+
+        .rosa {
+            color: #e91e63;
+        }
+
+        #mayusculas {
+            text-transform: uppercase;
+            color: #8bc34a;
+        }
+
+        b {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>HTML & CSS: Primera práctica</h1>
+
+<h2>Estilos con propiedad style, bloque style y rel link</h2>
+
+<p>Existen <b>tres formas</b> bastante conocidas de emplear CSS para maquetar una página HTML y son las siguientes:</p>
+
+<ol>
+    <li>Aplicar CSS en línea HTML mediante atributos.</li>
+    <li>Incrustar el código CSS en una etiqueta <b>style</b> dentro del documento HTML</li>
+    <li>Crear un documento CSS externo</li>
+</ol>
+
+<h3>CSS en línea empleando un atributo</h3>
+
+<p>Esta forma de utilizar CSS es la más básica y muy conocida, de hecho, de alguna manera ya lo habíamos utilizado en el curso de HTML; básicamente consiste en indicar los estilos de un elemento HTML dentro de su etiqueta de apertura, mediante un atributo HTML. El atributo STYLE es la mejor opción para colocar estilos, dentro de su valor irán las propiedades y sus respectivos valores CSS.</p>
+
+<p><b>Ejemplo de CSS aplicado en línea HTML.</b></p>
+
+<p><code>&lt;p style="color:red;"&gt;</code> <span id="mayusculas">este es un párrafo</span> <code>&lt;/p&gt;</code></p>
+
+<h3>CSS incrustado en el documento HTML</h3>
+
+<p>Otra manera fantástica de usar CSS en documento HTML es incrustando el código CSS dentro de ella, de tal manera que los estilos que deseamos aplicar afectarán no solo a un elemento como en el caso anterior, sino serán aplicados a toda la página.</p>
+
+<p><b>Ejemplo etiqueta style</b></p>
+
+<p><code>&lt;style&gt; /* Código CSS*/ &lt;/style&gt;</code></p>
+
+<h3>CSS en un documento CSS externo</h3>
+
+<p>Consiste en crear un documento CSS muy aparte y guardarlo con la extensión .css emplearemos la etiqueta <span class="rosa">link</span> dentro de la etiqueta head del documento HTML y mediante el atributo rel y href invocamos al documento CSS mediante su nombre</p>
+
+<p><code>&lt;link rel="stylesheet" href="<span class="rosa">mihojascss.css</span>"&gt;</code></p>
+
+</body>
+</html>
+
