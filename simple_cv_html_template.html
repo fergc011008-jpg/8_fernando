@@ -1,157 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-
-    <title>CV Fernando G.</title>
-
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-        
-            background-color: #635e5e;
-        }
-
-        .container {
-            display: grid;
-            grid-template-rows: auto auto auto;
-            grid-template-columns: 70% 30%;
-            grid-template-areas:
-                "cabecera cabecera"
-                "main aside"
-                "footer footer";
-            width: 100%;
-        }
-
-        
-
-        header {
-            background-image: url('1.jpeg');
-            background-position: center;
-            padding: 60px 20px;
-            text-align: center;
-            color: white;
-        }
-
-        header img {
-            width: 160px;
-            border-radius: 50%;
-            margin-bottom: 25px;
-        }
-
-        header h1 {
-            letter-spacing: 3px;
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 18px;
-            max-width: 600px;
-            margin: auto;
-        }
-
-        .separator {
-            width: 100%;
-            height: 2px;
-            background-color: #ccc;
-            margin-top: 30px;
-        }
-
-     
-
-        main {
-            grid-area: main;
-            padding: 40px 60px;
-            background-color: white;
-        }
-
-        main h2 {
-            color: #1f6b63;
-            font-size: 24px;
-            margin-bottom: 25px;
-        }
-
-        main h3 {
-            font-weight: bold;
-            font-size: 18px;
-            margin-top: 25px;
-        }
-
-        main p {
-            margin-top: 10px;
-            line-height: 1.6;
-            font-size: 17px;
-        }
-
-    
-
-        aside {
-            grid-area: aside;
-            background-color: #f0f7f5;
-            padding: 30px 20px;
-        }
-
-        aside h2 {
-            color: #1f6b63;
-            margin-bottom: 20px;
-        }
-
-       
-
-        footer {
-            grid-area: footer;
-            background-color: #1f6b63;
-            color: white;
-            text-align: center;
-            padding: 10px ;
-        
-        }
-
-    </style>
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="cv.css" />
 </head>
 
 <body>
+    <header>
+        <img src="aa.png" alt="Foto de Fernando">
+        <h1>CV DE Fernando G.</h1>
+        <p>Hola, mi nombre es Fernando G. y este es el ejemplo de práctica HTML de un CV sencillo</p>
+        <div class="separator"></div>
+        <nav>
+            <ul>
+                <li class="active">Inicio</li>
+                <li> <a href="menus_linkedin.html">linkedin</a></li>
+                <li> <a href="menus_contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cuadricula">
+            <div>
+                <h4>
+                    <u>2022-2024 - Jardineria.</u>
+                </h4>
+                <ul> Tengo experiencia como jardinero y he aprendido cosas como, atención al cliente, terminar los
+                    trabajos a tiempo y como tratar a los compañeros y jefes. </ul>
+            </div>
+            <div>
+                <h4>
+                    <u>2025 - Tecnico Informatico en COS Services.</u>
+                </h4>
+                <ul> Estube en la empresa COS en la seccion de laboratorios como becario. </ul>
+            </div>
+            <div class="languages">
+                <article>
+                    <h4>Idiomas</h4>
+                    <ul>
+                        <li>🇬🇧 English - Proficient C1</li>
+                        <li>🇪🇸 Spanish - Native</li>
+                    </ul>
+                </article>
 
+            </div>
+        </div>
 
-        <header>
-            <img src="Moto.jpg" alt="Foto de Fernando">
-            <h1>CV DE Fernando G.</h1>
-            <p>Hola, mi nombre es Fernando G. y este es el ejemplo de práctica HTML de un CV sencillo</p>
-            <div class="separator"></div>
-        </header>
+     
+        <div class="extra">
+            <article>
+                <h3>Habilidades Personales</h3>
+                <article>
+                    <ul>
+                        <li>Responsable y puntual</li>
+                        <li>Buena comunicación y trato con clientes</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Capacidad para resolver problemas</li>
+                        <li>Aprendizaje rápido</li>
+                    </ul>
+                </article>
 
-        <main>
-            <h2>Formación académica</h2>
+                <div class="interests">
+                    <h3>Intereses</h3>
+                    <article>
+                        <p>
+                            Me gusta aprender cosas nuevas sobre tecnología, mejorar mis habilidades informáticas,
+                            montar PCs y también disfruto del deporte y las actividades al aire libre.
+                        </p>
+                    </article>
+                    <div class="Experiencia-Extra">
+                        <h3>Experiencia Extra</h3>
+                        <article>
+                            <h4>Voluntariado en Eventos Deportivos (2023)</h4>
+                            <p>
+                                Apoyo en la organización de actividades, control de accesos, ayuda al público y montaje de material.
+                            </p>
 
-            <h3>UAM: Ing. Informática</h3>
-            <p>
-                Escuela Politécnica Superior. Complejidad algorítmica, Inteligencia Artificial,
-                Sistemas Operativos, Ingeniería del software, Redes, Programación Orientada a Objetos,
-                Teoría de autómatas y lenguajes formales.
-            </p>
+                            <h4>Proyectos Personales de Informática</h4>
+                            <p>
+                                Montaje de ordenadores, solución de fallos comunes de hardware/software, formateos, instalación de sistemas
+                                operativos y mantenimiento básico.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </article>
+        </div>
 
-            <h3>Chalmers University of Technology: Ing. Informática</h3>
-            <p>
-                Sweden. Distributed systems, Internet security.
-            </p>
-        </main>
+    </main>
 
-        <aside>
-            <h2>Información adicional</h2>
-            <p>Aquí puedes añadir habilidades, contacto, idiomas, etc.</p>
-        </aside>
-
-        <footer>
-            © 2025 – CV de Fernando G.
-        </footer>
-
-    </div>
-
+    <footer>
+        <p>CV De - Fernando González 2024 </p>
+    </footer>
 </body>
+
 </html>
