@@ -139,7 +139,7 @@ nav ul{
 }
 
 
-nav a {
+nav a:focus {
     display: flex;
     align-items: center;
     gap: 8px;               
