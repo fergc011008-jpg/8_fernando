@@ -10,3 +10,6 @@ debugger
 if (esViernes == true) {
 console.log('es viernes, nos vamos de fiesta');
 }
+var nombreUsuario = prompt("intruduzca su nombre")
+console.log("El nombre del usuario:", nombreUsuario);
+document.write("<h1>" + nombreUsuario +"</h1>")
